@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="411dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:fontFamily="@font/amethysta"
+        android:inputType="text"
+        android:text="Log in to your account"
+        android:textAlignment="viewStart"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="195dp"
+        android:layout_height="61dp"
+        android:text="See Weather Updates"
+        android:textColor="#FF5722"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="372dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:fontFamily="@font/amethysta"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="365dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:fontFamily="@font/amethysta"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+</androidx.constraintlayout.widget.ConstraintLayout>
