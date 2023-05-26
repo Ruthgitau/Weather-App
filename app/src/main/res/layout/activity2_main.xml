@@ -21,6 +21,7 @@
         android:layout_marginBottom="582dp"
         android:fontFamily="@font/amethysta"
         android:text="Sign up to continue..."
+        android:background="@color/white"
         android:textAlignment="center"
         android:textColor="#673AB7"
         android:textSize="30sp" />

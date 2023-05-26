@@ -13,7 +13,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="632dp"
-        android:text="My Weather App"
+        android:text="@string/Hello"
         android:textAlignment="center"
         android:textColor="#2196F3"
         android:textSize="34sp" />
